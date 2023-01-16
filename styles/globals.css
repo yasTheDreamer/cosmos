@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+  html,
+  body,
+  #__next {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e0e0e0;
+  }
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+.card-container > a {
+  padding: 25px 15px 0px 15px;
+}
+
+.card-container > P {
+  padding: 15px 15px 0px 15px;
+}
+
+.card-container > a > div > * {
+  margin-right: 10px;
+}
+
+.card-container > a > div > img {
+  width: 25px;
+  height: 25px;
+}
+
+.navigation {
+  flex-direction: column;
+}
+
+.nav_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 100px;
+}
+
+.child_div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+}

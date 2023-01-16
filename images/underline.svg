@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="339.922" height="100.908" viewBox="0 0 339.922 100.908">
+  <defs>
+    <filter id="underline" x="0" y="0" width="339.922" height="100.908" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <path id="underline-2" data-name="underline" d="M21.5,27.42q249.263-10.4,262.994-2.547c13.731,7.852-151.442,4.883-213.42,8.482-35.862,2.083-66.739,16.322-22.5,18.71q5.93.32,13.851.336c7.721.006,16.994-.644,28.113-1.715,40.907-3.943,105.4-13.617,198.707-15.621" transform="translate(14.929 13.506)" fill="rgba(0,0,0,0)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#underline)">
+      <path id="underline-3" data-name="underline" d="M21.5,27.42q249.263-10.4,262.994-2.547c13.731,7.852-151.442,4.883-213.42,8.482-35.862,2.083-66.739,16.322-22.5,18.71q5.93.32,13.851.336c7.721.006,16.994-.644,28.113-1.715,40.907-3.943,105.4-13.617,198.707-15.621" transform="translate(14.93 13.51)" fill="#fff"/>
+    </g>
+    <path id="underline-4" data-name="underline" d="M21.5,27.42q249.263-10.4,262.994-2.547c13.731,7.852-151.442,4.883-213.42,8.482-35.862,2.083-66.739,16.322-22.5,18.71q5.93.32,13.851.336c7.721.006,16.994-.644,28.113-1.715,40.907-3.943,105.4-13.617,198.707-15.621" transform="translate(14.929 13.506)" fill="none" stroke="#60f" stroke-linecap="round" stroke-width="70"/>
+  </g>
+</svg>
