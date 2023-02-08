@@ -4,8 +4,8 @@ import { Montserrat } from "@next/font/google";
 import external_link from "../../images/external_link.svg";
 import Link from "next/link";
 
-const mont = Montserrat({ weight: "800" });
-const mont_lighter = Montserrat({ weight: "500" });
+const mont = Montserrat({ weight: "800", subsets: ["latin"] });
+const mont_lighter = Montserrat({ weight: "500", subsets: ["latin"] });
 
 const Card = (props: any) => {
   return (
