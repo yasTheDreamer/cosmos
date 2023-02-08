@@ -6,18 +6,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      sm: "576px",
-      // => @media (min-width: 576px) { ... }
-
-      md: "960px",
-      // => @media (min-width: 960px) { ... }
-
-      xl: "1536px",
-      // => @media (min-width: 1440px) { ... }
-      "2xl": "1920px",
-    },
     extend: {
+      screens: {
+        xs: "400px",
+        xl: "1524px",
+      },
       colors: {
         grey: "#E0E0E0",
         darkGrey: "#979797",

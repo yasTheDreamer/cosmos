@@ -4,7 +4,7 @@ import banner from "../../images/rectangle.svg";
 
 const Banner = () => {
   return (
-    <div className="-ml-56 h-56 overflow-hidden">
+    <div className="-ml-56 xs:max-lg:h-32 h-56 overflow-hidden">
       <Image src={banner} alt="banner"></Image>
     </div>
   );

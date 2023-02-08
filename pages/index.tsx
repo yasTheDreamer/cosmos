@@ -1,8 +1,5 @@
-import { useState } from "react";
-import { Devonshire } from "@next/font/google";
 import type { NextPage } from "next";
 import Head from "next/head";
-import { useEffect } from "react";
 import Contact from "../components/organisms/Contact";
 import Content from "../components/organisms/Content";
 import Header from "../components/organisms/Header";
@@ -21,7 +18,7 @@ const Home: NextPage = () => {
         <Content />
       </main>
 
-      <footer className="bg-black">
+      <footer className="bg-black xs:max-lg:pt-24">
         <Contact />
         <Banner />
       </footer>
