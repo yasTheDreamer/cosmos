@@ -63,3 +63,39 @@
   justify-content: space-evenly;
   width: 400px;
 }
+
+.mobile_logo {
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 634px) {
+  .desktop_logo {
+    display: none !important;
+  }
+
+  .no-scrollbar {
+    flex-direction: column;
+  }
+  .item_container {
+    display: flex;
+    justify-content: center;
+  }
+  .react-horizontal-scrolling-menu--footer {
+    display: none;
+  }
+
+  #Servme,
+  #ChatApp {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 634px) {
+  .mobile_logo {
+    display: none !important;
+  }
+
+  .menu {
+    display: none;
+  }
+}

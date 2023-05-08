@@ -4,7 +4,7 @@ import Background from "../molecules/Background";
 
 const Header = () => {
   return (
-    <header className="flex flex-col h-full w-full items-center">
+    <header className="flex flex-col h-full w-full xs:items-start mobile:items-center">
       <Navbar />
       <Presentation />
       <Background />

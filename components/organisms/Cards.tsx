@@ -36,23 +36,29 @@ const Cards = () => {
   ]);
 
   return (
-    <ScrollMenu scrollContainerClassName="no-scrollbar" Footer={Footer}>
-      {cards.map((card, i) => {
-        return (
-          <Card
-            id={card.name}
-            key={card.name}
-            thumbnail={card.thumbnail}
-            name={card.name}
-            color={card.color}
-            text={card.text}
-            margin={card.margin}
-            href={card.href}
-            class={card.class}
-          />
-        );
-      })}
-    </ScrollMenu>
+    <div className="cards_container">
+      <ScrollMenu
+        scrollContainerClassName="no-scrollbar"
+        itemClassName="item_container"
+        Footer={Footer}
+      >
+        {cards.map((card, i) => {
+          return (
+            <Card
+              id={card.name}
+              key={card.name}
+              thumbnail={card.thumbnail}
+              name={card.name}
+              color={card.color}
+              text={card.text}
+              margin={card.margin}
+              href={card.href}
+              class={card.class}
+            />
+          );
+        })}
+      </ScrollMenu>
+    </div>
   );
 };
 

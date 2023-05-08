@@ -37,8 +37,8 @@ const Intro = () => {
     },
   ]);
   return (
-    <div className="pt-14 pl-14">
-      <h1 className="text-5xl leading-tight">
+    <div className="flex flex-col pt-14 pl-14 max-mobile:pl-0 max-mobile:items-center">
+      <h1 className="text-5xl max-mobile:text-center leading-tight">
         Hi, My name is
         {/* prettier-ignore */}
         <span className="text-white bg-purple-underline bg-contain bg-no-repeat whitespace-pre py-1 pr-5"> Yassine</span>
@@ -47,7 +47,7 @@ const Intro = () => {
       </h1>
       <div className="w-44 h-7"></div>
       <div className="border-t-4 border-t-black w-44 h-5"></div>
-      <h1 className="text-2xl">
+      <h1 className="text-2xl max-mobile:text-center">
         i currently work as a Full Stack Engineer <br />
         at Société Générale CIB.
       </h1>

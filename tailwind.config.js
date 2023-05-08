@@ -8,7 +8,11 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        xxs: "200px",
         xs: "400px",
+        s: "500px",
+        mobile: "634px",
+        md: "1247px",
         xl: "1524px",
       },
       colors: {
@@ -23,6 +27,7 @@ module.exports = {
       backgroundImage: {
         "purple-underline": "url('../images/purple_underline.svg')",
         "green-underline": "url('../images/skills_underline.svg')",
+        "green-underline-ipad": "url('../images/green-underline-ipad.svg')",
       },
     },
   },
