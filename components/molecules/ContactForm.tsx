@@ -35,8 +35,8 @@ const ContactForm = () => {
 
   return (
     <div className="flex flex-col w-full items-center">
-      <div className="flex xs:max-lg:flex-col xs:max-lg:w-full lg:w-full xl:w-3/4 mt-10">
-        <div className="flex flex-col xs:max-lg:w-full w-1/2">
+      <div className="flex xxs:max-lg:flex-col xs:max-lg:w-full lg:w-full xl:w-3/4 mt-10">
+        <div className="flex flex-col xxs:max-lg:w-full w-1/2">
           <input
             type="text"
             name="name"
@@ -57,7 +57,7 @@ const ContactForm = () => {
         <textarea
           name="message"
           id="message"
-          className="rounded-md xs:max-lg:w-full xs:max-lg:mx-0 xs:max-lg:mt-3 xs:max-lg:h-56 w-1/2 h-42 text-xl indent-5 bg-darkerGray resize-none text-gray-400 py-4 mx-3"
+          className="rounded-md xxs:max-lg:w-full xxs:max-lg:mx-0 xxs:max-lg:mt-3 xxs:max-lg:h-56 w-1/2 h-42 text-xl indent-5 bg-darkerGray resize-none text-gray-400 py-4 mx-3"
           placeholder="Message"
           required
         />

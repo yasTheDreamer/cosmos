@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <Content />
       </main>
 
-      <footer className="bg-black xs:max-lg:pt-24">
+      <footer className="bg-black xxs:max-lg:pt-24">
         <Contact />
         <Banner />
       </footer>
