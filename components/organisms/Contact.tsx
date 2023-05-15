@@ -3,7 +3,7 @@ import ContactForm from "../molecules/ContactForm";
 import ContactHeader from "../molecules/ContactHeader";
 const Contact = () => {
   return (
-    <div className="flex flex-col w-full items-center xxs:max-md:px-10">
+    <div className="flex flex-col w-full items-center xxs:max-xl:px-10">
       <ContactHeader />
       <ContactForm />
     </div>
