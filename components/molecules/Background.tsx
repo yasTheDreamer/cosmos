@@ -5,7 +5,7 @@ import bg from "../../images/curved_bg.svg";
 const Background = () => {
   return (
     <div className="relative pt-8 z-0">
-      <Image src={bg} alt="curved_background"></Image>
+      <Image className="w-screen" src={bg} alt="curved_background"></Image>
       <h1 className="absolute xxs:top-12 xs:top-20 md:top-28 w-full xs:text-2xl mobile:text-4xl md:text-4xl text-white text-center">
         Unleash The Power Of
         <br />
